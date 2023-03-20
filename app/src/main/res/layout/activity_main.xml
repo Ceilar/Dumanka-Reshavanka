@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/profilebtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/profile"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+    <Button
+        android:id="@+id/start1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="152dp"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/startbtnbackground"
+        android:gravity="center"
+        android:text="Старт!"
+        android:includeFontPadding="false"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:orientation="horizontal"
+        android:paddingTop="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/wordbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selected"
+            android:fontFamily="@font/g_bold"
+            android:gravity="center"
+            android:letterSpacing="0.05"
+            android:padding="5dp"
+            android:text="Думанка"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/mathbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selected"
+            android:fontFamily="@font/g_bold"
+            android:gravity="center"
+            android:letterSpacing="0.05"
+            android:padding="5dp"
+            android:text="Решаванка"
+            android:textSize="28sp" />
+    </LinearLayout>
+
+
+    <Switch
+        android:id="@+id/switchbtn"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:layout_width="48dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <View
+        android:id="@+id/lightmode"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="6dp"
+        android:maxWidth="36dp"
+        android:maxHeight="36dp"
+        android:background="@drawable/sun"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="6dp"
+        android:layout_marginEnd="6dp"
+        app:layout_constraintEnd_toStartOf="@+id/switchbtn"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/darkmode"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/dark"
+        android:maxWidth="32dp"
+        android:maxHeight="32dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toEndOf="@+id/switchbtn"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="16dp">
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout"
+        app:layout_constraintVertical_bias="0.076"
+        tools:layout_editor_absoluteX="-12dp">
+
+    </androidx.viewpager2.widget.ViewPager2>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

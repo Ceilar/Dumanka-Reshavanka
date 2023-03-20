@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Ceilar/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/border.xml" value="0.2415" />
+        <entry key="..\:/Users/Ceilar/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/border2.xml" value="0.1605" />
+        <entry key="..\:/Users/Ceilar/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/notselected.xml" value="0.1605" />
+        <entry key="..\:/Users/Ceilar/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/rounded.xml" value="0.16" />
+        <entry key="..\:/Users/Ceilar/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/settings.xml" value="0.243" />
+        <entry key="..\:/Users/Ceilar/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/startbtnbackground.xml" value="0.1605" />
+        <entry key="..\:/Users/Ceilar/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_login.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/Ceilar/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Ceilar/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_splash.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Ceilar/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
+        <entry key="..\:/Users/Ceilar/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_dumanka.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/Ceilar/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_reshavanka.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/Ceilar/Desktop/Backup/MyApplication/app/src/main/res/drawable/border.xml" value="0.141" />
+        <entry key="..\:/Users/Ceilar/Desktop/Backup/MyApplication/app/src/main/res/drawable/border2.xml" value="0.141" />
+        <entry key="..\:/Users/Ceilar/Desktop/Backup/MyApplication/app/src/main/res/drawable/bordergray.xml" value="0.141" />
+        <entry key="..\:/Users/Ceilar/Desktop/Backup/MyApplication/app/src/main/res/drawable/bordergreen.xml" value="0.141" />
+        <entry key="..\:/Users/Ceilar/Desktop/Backup/MyApplication/app/src/main/res/drawable/borderyellow.xml" value="0.141" />
+        <entry key="..\:/Users/Ceilar/Desktop/Backup/MyApplication/app/src/main/res/drawable/key_preview.xml" value="0.203" />
+        <entry key="..\:/Users/Ceilar/Desktop/Backup/MyApplication/app/src/main/res/drawable/keyboard.xml" value="0.1365" />
+        <entry key="..\:/Users/Ceilar/Desktop/Backup/MyApplication/app/src/main/res/drawable/keyboard_view.xml" value="0.203" />
+        <entry key="..\:/Users/Ceilar/Desktop/Backup/MyApplication/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/Ceilar/Desktop/Backup/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Ceilar/Desktop/Backup/MyApplication/app/src/main/res/layout/activity_my_keyboard2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ceilar/Desktop/Backup/MyApplication/app/src/main/res/layout/activity_profile.xml" value="0.3" />
+        <entry key="..\:/Users/Ceilar/Desktop/Backup/MyApplication/app/src/main/res/layout/activity_splash_screen.xml" value="0.17046605876393112" />
+        <entry key="..\:/Users/Ceilar/Desktop/Backup/MyApplication/app/src/main/res/layout/dialog1.xml" value="0.36164383561643837" />
+        <entry key="..\:/Users/Ceilar/Desktop/Backup/MyApplication/app/src/main/res/layout/dialog1l.xml" value="0.29528985507246375" />
+        <entry key="..\:/Users/Ceilar/Desktop/Backup/MyApplication/app/src/main/res/layout/dialog1w.xml" value="0.29528985507246375" />
+        <entry key="..\:/Users/Ceilar/Desktop/Backup/MyApplication/app/src/main/res/layout/dialog2l.xml" value="0.29528985507246375" />
+        <entry key="..\:/Users/Ceilar/Desktop/Backup/MyApplication/app/src/main/res/layout/dialog2w.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Ceilar/Desktop/Backup/MyApplication/app/src/main/res/layout/fragment_dumanka.xml" value="0.16" />
+        <entry key="..\:/Users/Ceilar/Desktop/Backup/MyApplication/app/src/main/res/layout/fragment_reshavanka.xml" value="0.2802547770700637" />
+        <entry key="..\:/Users/Ceilar/Desktop/Backup/MyApplication/app/src/main/res/layout/keyboard.xml" value="0.2989583333333333" />
+        <entry key="..\:/Users/Ceilar/Desktop/Backup/MyApplication/app/src/main/res/layout/keyboard2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ceilar/Desktop/Backup/MyApplication/app/src/main/res/layout/logindialog.xml" value="0.3614583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
